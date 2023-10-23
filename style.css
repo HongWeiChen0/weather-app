@@ -1,0 +1,89 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.current-weather-panel {
+  display: flex;
+  font-size: 5rem;
+  justify-content: center;
+  width: 100%;
+}
+
+.current-weather-left {
+  display: flex;
+  border-right: solid;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 33.3%;
+}
+
+.current-weather-middle {
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+  border-right: solid;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  width: 33.3%;
+}
+
+.current-weather-right {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  padding: 1rem;
+  width: 33.3%;
+  align-items: center;
+  justify-content: center;
+}
+
+.unit-selection {
+  display: flex;
+  align-items: center;
+}
+
+.unit-selection button {
+  font-size: 1.5rem;
+  text-align: center;
+  border-radius: 1.5rem;
+  padding: 0.75rem;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+
+.selected-button {
+  background-color: dodgerblue;
+}
+
+.temperature-display{
+  display: flex;
+  flex-direction: row;
+}
+
+.location-input-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.hourly-weather-panel {
+  display: flex;
+  font-size: 2.1rem;
+  overflow: scroll;
+  overflow-y: hidden;
+}
+
+.hourly-weather-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
